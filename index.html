@@ -1,16 +1,67 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Project</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Rotating navigation</title>
 
-    <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/main.js" defer></script>
-</head>
-<body>
-</body>
+        <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="circle-container">
+                <div class="circle">
+                    <button id="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button id="open">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content">
+                <h1>Greiton</h1>
+                <small>aka Georgi Damyanov</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eligendi eveniet ex excepturi harum
+                    illum
+                    officiis, praesentium provident quam quas quibusdam quidem vel! Adipisci asperiores, dolor dolorum
+                    excepturi
+                    ipsum iusto magni minima molestias non, nulla pariatur quas. Aperiam commodi deserunt ducimus ea
+                    earum error
+                    est ex facilis ipsam ipsum itaque libero maiores molestiae molestias mollitia neque nostrum, numquam
+                    quas
+                    quos saepe sed sit velit? Asperiores beatae distinctio dolorum ducimus, earum enim hic laborum
+                    libero magnam
+                    nemo, nisi nobis non nulla numquam odit quis quos reprehenderit saepe suscipit ullam. Eveniet illum
+                    impedit
+                    vel. Ab eius, eligendi fuga itaque non voluptate voluptatibus.</p>
+
+                <h3>Black & White</h3>
+                <img src="img/IMG_3745.jpg"
+                     alt="doggy"/>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit libero deleniti rerum quo, incidunt vel
+                    consequatur culpa ullam. Magnam facere earum unde harum. Ea culpa veritatis magnam at aliquid.
+                    Perferendis
+                    totam placeat molestias illo laudantium? Minus id minima doloribus dolorum fugit deserunt qui vero
+                    voluptas,
+                    ut quia cum amet temporibus veniam ad ea ab perspiciatis, enim accusamus asperiores explicabo
+                    provident.
+                    Voluptates sint, neque fuga cum illum, tempore autem maxime similique laborum odio, magnam esse.
+                    Aperiam?</p>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-user-alt"></i> About</li>
+                <li><i class="fas fa-envelope"></i> Contact</li>
+            </ul>
+        </nav>
+    </body>
 </html>
