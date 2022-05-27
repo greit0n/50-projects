@@ -1,0 +1,1 @@
+This repository contains 50 projects done with HTML, CSS and JavaScript
