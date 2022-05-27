@@ -1,16 +1,32 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Project</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form Input Wave</title>
 
-    <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/main.js" defer></script>
-</head>
-<body>
-</body>
+        <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Please Login</h1>
+            <form action="">
+                <div class="form-control">
+                    <input id="email" type="text" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-control">
+                    <input id="password" type="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <button class="btn">Login</button>
+                <p class="text">Don't have an account? <a href="#">Register</a></p>
+            </form>
+        </div>
+    </body>
 </html>
