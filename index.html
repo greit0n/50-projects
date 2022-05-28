@@ -5,12 +5,65 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>My Project</title>
+        <title>Event KeyCodes</title>
 
         <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script src="js/main.js" defer></script>
     </head>
     <body>
+        <div id="insert">
+            <div class="box__big-which">
+                <p class="key-value">49</p>
+            </div>
+            <div class="box__big-which box__big-which--mirror">
+                <p class="key-value">65</p>
+            </div>
+            <div class="box box__key">
+                <p class="key-name">event.key</p>
+                <p class="key-value">event.value</p>
+                <small class="key-description">The value of the key pressed. Accounts for modifiers keys that return
+                    CAPS
+                    and alternate characters.</small>
+            </div>
+            <div class="box box__code">
+                <p class="key-name">event.code</p>
+                <p class="key-value">event.value</p>
+                <small class="key-description">The physical key on the keyboard. Doesn't care if you are holding a
+                    modifier
+                    like Shift.</small>
+            </div>
+            <div class="box box__which">
+                <p class="key-name">event.which</p>
+                <p class="key-value">event.value</p>
+                <small class="key-description">event.which and event.keyCode are deprecated in modern browsers. Use .key
+                    or
+                    .code instead</small>
+            </div>
+            <div class="box box__key box__key--mirror">
+                <p class="key-name">event.key</p>
+                <p class="key-value">event.value</p>
+                <small class="key-description">The value of the key pressed. Accounts for modifiers keys that return
+                    CAPS
+                    and alternate characters.</small>
+            </div>
+            <div class="box box__code box__code--mirror">
+                <p class="key-name">event.code</p>
+                <p class="key-value">event.value</p>
+                <small class="key-description">The physical key on the keyboard. Doesn't care if you are holding a
+                    modifier
+                    like Shift.</small>
+            </div>
+            <div class="box box__which box__which--mirror">
+                <p class="key-name">event.which</p>
+                <p class="key-value">event.value</p>
+                <small class="key-description">event.which and event.keyCode are deprecated in modern browsers. Use .key
+                    or
+                    .code instead</small>
+            </div>
+        </div>
+        <div class="box__start">
+            Press Any Key to get the JavaScript Event Keycode Info
+        </div>
     </body>
 </html>
