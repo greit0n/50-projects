@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+#tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 15px;
+    background-color: orange;
+    margin-top: 15px;
+
+    &:not(:nth-of-type(1)) {
+        margin-left: 15px;
+    }
+}
+
+.choices-container {
+    width: 600px;
+}
+
+#textarea {
+    width: 100%;
+}
+
+.highlight {
+    background-color: #2a61b9;
+}
